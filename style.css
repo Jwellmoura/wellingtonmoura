@@ -157,7 +157,7 @@ body {
         flex-direction: row;
         gap: 25px;
         position:absolute;
-        bottom:10%;
+        bottom:0%;
     }
 
     .linha1 {
