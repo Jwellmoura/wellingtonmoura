@@ -94,21 +94,22 @@ body {
     width:3%;
 }
 
-@media (max-width: 415px) {
+@media (max-width: 414px) {
 
     .apresentacao {
+        display:flex;
+        justify-content: center;
         flex-direction: column;
-        padding: 1% 1% 5% 1%;
     }
 
     .titulo {
-        padding: 10% 3% 0% 3%;
+        padding: 10% 1% 0% 1%;
         display: flex;
         justify-content: center;
     }
     
     .nome {
-        width: 160%;
+        width: 100%;
         color:white;
         display: flex;
         justify-content:center;
