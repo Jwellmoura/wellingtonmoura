@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200&family=Spectral:wght@600&display=swap');
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    box-sizing: border-box;
+    background-color: #3e3030;
+}
+
+.apresentacao {
+    padding: 1% 3% 1% 3%;
+    display: flex;
+    align-items:center;
+    justify-content:space-between;
+    gap:50px;
+}
+
+.titulo {
+    padding:1% 0% 1% 8%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+}
+
+.nome {
+    width: 165%;
+    color:white;
+    display: flex;
+    justify-content:left;
+    font-size:4rem;
+    font-family: 'Spectral', serif;
+}
+
+.funcao {
+    color: #e58f2a;
+    display: flex;
+    font-size: 1.3rem;
+    font-family: 'Inter', sans-serif;
+}
+
+.imagem {
+    margin-top: 15%;
+    display:flex;
+    justify-content:center;
+    width:100%;
+}
+
+.paragrafo_geral {
+    padding:8% 8% 1% 8%;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    gap: 32px;
+}
+
+.paragrafo {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    font-size:1.8rem;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+}
+
+.links {
+    padding: 1% 1% 1% 1%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+}
+
+.links_icon {
+    text-decoration: none;
+    color: white;
+}
+
+.linha1 {
+    padding:150% 4% 1% 2%;
+    width:3%;
+}
+.linha2 {
+    padding:1% 4% 150% 2%;
+    width:3%;
+}
