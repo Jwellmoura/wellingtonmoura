@@ -49,7 +49,7 @@ body {
     margin-top: 15%;
     display:flex;
     justify-content:center;
-    width:100%;
+    width:125%;
 }
 
 .paragrafo_geral {
@@ -128,7 +128,7 @@ body {
     .imagem {
         display:flex;
         justify-content:center;
-        width:50%;
+        width:70%;
     }
 
     .paragrafo_geral {
