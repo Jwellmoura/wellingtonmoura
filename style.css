@@ -94,7 +94,7 @@ body {
     width:3%;
 }
 
-@media (max-width: 700px) {
+@media (max-width: 415px) {
 
     .apresentacao {
         flex-direction: column;
@@ -112,7 +112,7 @@ body {
         color:white;
         display: flex;
         justify-content:center;
-        font-size:4rem;
+        font-size:2rem;
         font-family: 'Spectral', serif;
     }
     
@@ -120,14 +120,14 @@ body {
         color: #e58f2a;
         display: flex;
         justify-content: center;
-        font-size: 1.2rem;
+        font-size: 1rem;
         font-family: 'Inter', sans-serif;
     }
     
     .imagem {
         display:flex;
         justify-content:center;
-        width:80%;
+        width:50%;
     }
 
     .paragrafo_geral {
@@ -145,7 +145,7 @@ body {
         flex-direction: column;
         justify-content:center;
         text-align: center;
-        font-size:1.3rem;
+        font-size:1rem;
         font-family: 'Inter', sans-serif;
         font-weight: 300;
         padding: 1% 1% 1% 1%;
@@ -153,12 +153,11 @@ body {
     }
 
     .links {
-        margin: 2%;
         display: flex;
         flex-direction: row;
         gap: 25px;
         position:absolute;
-        bottom:-100%;
+        bottom:10%;
     }
 
     .linha1 {
