@@ -98,8 +98,46 @@ body {
 
     .apresentacao {
         flex-direction: column;
-        padding: 1%;
+        padding: 1% 1% 5% 1%;
     }
+
+    .titulo {
+        padding: 10% 3% 0% 3%;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .nome {
+        width: 160%;
+        color:white;
+        display: flex;
+        justify-content:center;
+        font-size:4rem;
+        font-family: 'Spectral', serif;
+    }
+    
+    .funcao {
+        color: #e58f2a;
+        display: flex;
+        justify-content: center;
+        font-size: 1.2rem;
+        font-family: 'Inter', sans-serif;
+    }
+    
+    .imagem {
+        display:flex;
+        justify-content:center;
+        width:80%;
+    }
+
+    .paragrafo_geral {
+        padding:1% 1% 1% 1%;
+        display: flex;
+        flex-direction: column;
+        justify-content:center;
+        gap: 15px;
+    }
+    
 
     .paragrafo {
         color: white;
@@ -111,14 +149,16 @@ body {
         font-family: 'Inter', sans-serif;
         font-weight: 300;
         padding: 1% 1% 1% 1%;
+        gap:15px;
     }
 
     .links {
-        margin-top: 5%;
+        margin: 2%;
         display: flex;
         flex-direction: row;
-        justify-content: center;
-        gap: 20px;
+        gap: 25px;
+        position:absolute;
+        bottom:-100%;
     }
 
     .linha1 {
@@ -126,36 +166,5 @@ body {
     }
     .linha2 {
         display: none;
-    }
-    
-
-    .titulo {
-        padding: 0% 3% 0% 3%;
-        display: flex;
-        justify-content: center;
-    }
-    
-    .nome {
-        width: 160%;
-        color:white;
-        display: flex;
-        justify-content:center;
-        font-size:2rem;
-        font-family: 'Spectral', serif;
-    }
-    
-    .funcao {
-        color: #e58f2a;
-        display: flex;
-        justify-content: center;
-        font-size: 1rem;
-        font-family: 'Inter', sans-serif;
-    }
-    
-    .imagem {
-        margin-top: 5%;
-        display:flex;
-        justify-content:center;
-        width:80%;
     }
 }
